@@ -1,0 +1,5 @@
+*.class
+*.netbeans_automatic_build
+target/classes/example.json
+target/maven-archiver/pom.properties
+*.jar

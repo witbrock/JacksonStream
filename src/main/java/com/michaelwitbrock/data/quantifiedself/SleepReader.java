@@ -22,9 +22,9 @@ public class SleepReader {
     //Extension should be straightforward, but perhaps not elegant
     
     public static void main(String[] args) {
-
+  
+    //Use the JSON File included as a resource
         ClassLoader classLoader = SleepReader.class.getClassLoader();
-        //Use the JSON File included as a resource
         File dataFile = new File(classLoader.getResource("example.json").getFile());
 
         //Simple example of getting the Sleep Objects from that JSON

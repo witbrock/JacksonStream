@@ -11,6 +11,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.Spliterators;
 import java.util.stream.Stream;
@@ -24,7 +25,7 @@ public class JsonArrayStreamDataSupplier<T> implements Iterator<T> {
     * a very large JSON file (> 1GB).  And there didn't seem to be good example 
     * code for handling Jackson streams as Java 8 streams, which seems natural.
     */
-
+    
     static ObjectMapper mapper = new ObjectMapper();
     JsonParser parser;
     boolean maybeHasNext = false;
