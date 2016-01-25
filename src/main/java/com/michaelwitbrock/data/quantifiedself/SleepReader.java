@@ -16,10 +16,12 @@ import static java.util.stream.Collectors.groupingBy;
 
 public class SleepReader {
 
-    //Some example uses of the reader turning Jackson streamed reading into
-    // a java8 stream.
-    //Note that the reader is currently only usable for top level arrays.
-    //Extension should be straightforward, but perhaps not elegant
+/**   Some example uses of the reader turning Jackson streamed reading into
+ *    a java-8 stream.
+ *    
+ *    Note that the reader is currently only usable for top level arrays.
+ *    Extension should be straightforward, but perhaps not elegant
+ **/
     
     public static void main(String[] args) {
   
