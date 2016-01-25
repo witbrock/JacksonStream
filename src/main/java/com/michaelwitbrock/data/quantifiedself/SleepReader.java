@@ -18,7 +18,7 @@ public class SleepReader {
 
     //Some example uses of the reader turning Jackson streamed reading into
     // a java8 stream.
-    //Not that the reader is currently only usable for top level arrays.
+    //Note that the reader is currently only usable for top level arrays.
     //Extension should be straightforward, but perhaps not elegant
     
     public static void main(String[] args) {
